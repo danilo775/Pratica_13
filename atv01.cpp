@@ -73,7 +73,7 @@ void verHorarioViagem(const vector<Viagem>& viagens) {
 void comprar_Passagem(vector<Viagem>& viagens) {
     string destino;
     int dia;
-    cout << "Você ira viajar para qual cidade: ";
+    cout << "Voce ira viajar para qual cidade: ";
     cin >> destino;
     cout << "Para qual dia a viagem: ";
     cin >> dia;
@@ -102,7 +102,7 @@ double arrecadamentoPorViagem(const vector<Viagem>& viagens) {
     int dia, mes, ano;
     cout << "Digite o ano para busca: ";
     cin >> ano;
-    cout << "Digite o mês para busca: ";
+    cout << "Digite o mes para busca: ";
     cin >> mes;
     cout << "Digite a Hora para busca: ";
     cin >> hora;
@@ -159,13 +159,13 @@ int main() {
             double arrecadacao = arrecadamentoPorViagem(viagens);
             cout << "Total arrecadado para a viagem: " << arrecadacao << " reais" << endl;
         } else if (opcao == 4) {
-            // Implemente esta opção para obter o total arrecadado em um mês
+            
         } else if (opcao == 5) {
-            // Implemente esta opção para obter o nome do passageiro de uma poltrona em uma viagem
+            
         } else if (opcao == 6) {
-            // Implemente esta opção para obter o horário de viagem mais rentável
+           
         } else if (opcao == 7) {
-             // Implemente esta opção para obter a média de idade dos passageiros
+            
         } else if (opcao == 8) {
             verPassagens(viagens);         
         } else if (opcao == 9) {
